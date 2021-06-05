@@ -9,6 +9,10 @@ Define services:
 protocol NetworkProtocol {
     func request()
 }
+
+class NetworkService: NetworkProtocol {
+    func request() {}
+}
 ```
 
 For example, inject dependencies in AppDelegate that need to be injectable with property:
