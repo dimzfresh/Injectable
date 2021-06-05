@@ -24,7 +24,7 @@ DependencyContainer {
 Define injectable properties where it needed:
 
 ```
-@Injectable var networkService: NetworkProtocol
+@Injectable private var networkService: NetworkProtocol
 ```
 Use your injectable service :)
 ```
